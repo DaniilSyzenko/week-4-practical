@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet">
     <script src="js/bootstrap.bundle.js"></script>
+    <style>
+        #contents a {
+            color: white;
+        }
+
+        div {
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -22,8 +31,8 @@
         <img src="img/quantum_computer.png">
         <p>Quantum computing has a number of applications that make positive contributions to society.</p>
         <p>These include:
-            <ul>
-                <li><a style="color: white;" href="quantum.html#healthcare">Healthcare</a></li>
+            <ul id="contents">
+                <li><a href="quantum.html#healthcare">Healthcare</a></li>
                 <li>Finance</li>
                 <li>Climate technology</li>
                 <li>Travel and transportation</li>
@@ -45,7 +54,23 @@
             </div>
         </div>
     </div>
-
+    <br>
+    <div class="container-fluid bg-secondary text-white" id="Finance">
+        <h2>Finance</h2>
+        <div class="row align-items-start">
+            <div class="col">
+                <img src="img/quantum_finance.png" width="500">
+            </div>
+            <div class="col">
+                <p>Within finance, quantum computing can be used for:</p>
+                <ul>
+                    <li>Advanced modelling</li>
+                    <li>Optimised decision making</li>
+                    <li>Quantum-enhanced machine learning</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <P>Authored by <a href="https://github.com/jedn07">Jed</a></P>
 
 </body>
